@@ -13,3 +13,14 @@
 .externalNativeBuild
 .cxx
 local.properties
+.idea/misc.xml
+.idea/gradle.xml
+*.aab
+.idea/gradle.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/misc.xml
+.idea/gradle.xml
+*.apk
+app/release/app-release.apk
+*.apk
