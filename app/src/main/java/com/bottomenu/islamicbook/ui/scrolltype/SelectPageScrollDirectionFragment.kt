@@ -1,4 +1,4 @@
-package com.bottomenu.islamicbook.ui.notificationsdua
+package com.bottomenu.islamicbook.ui.scrolltype
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -28,15 +28,11 @@ class SelectPageScrollDirectionFragment : Fragment() {
         _binding = FragmentScrollDirectionBinding.inflate(inflater, container, false)
         val root: View = binding.root
         binding.horizontalBtn.setOnClickListener{
-            arguments?.getInt("stageIndex")?.let {
-                findNavController().navigate(R.id.move_to_dua_read_page , bundleOf("stageIndex" to it , "scrollType" to 0))
-            }
+           findNavController().navigate(R.id.action_page_scroll_direction_to_navigation_dua_list , bundleOf( "scrollType" to 0))
         }
 
         binding.verticalBtn.setOnClickListener{
-            arguments?.getInt("stageIndex")?.let {
-                findNavController().navigate(R.id.move_to_dua_read_page , bundleOf("stageIndex" to it , "scrollType" to 1))
-            }
+            findNavController().navigate(R.id.action_page_scroll_direction_to_navigation_dua_list , bundleOf("scrollType" to 1))
         }
 
         return root

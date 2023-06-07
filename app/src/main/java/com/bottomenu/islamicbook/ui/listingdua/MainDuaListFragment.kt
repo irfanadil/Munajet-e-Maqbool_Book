@@ -57,7 +57,12 @@ class MainDuaListFragment : Fragment() , DuaClickAdapter {
 
 
     override fun duaItemClicked(duaTitleModel: DuaModel) {
-        findNavController().navigate(R.id.move_to_scroll_direction , bundleOf("stageIndex" to duaTitleModel.stageIndex))
+        arguments?.getInt("scrollType")?.let { scrollIndex->
+            findNavController().navigate(
+                R.id.action_navigation_dua_list_to_dua_read_page,
+                bundleOf("stageIndex" to duaTitleModel.stageIndex , "scrollType" to scrollIndex )
+            )
+        }
     }
 
     override fun deleteUrlEvent(duaTitleModel: DuaModel) {
