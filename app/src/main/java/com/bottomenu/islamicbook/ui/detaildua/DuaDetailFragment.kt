@@ -15,9 +15,11 @@ class DuaDetailFragment : Fragment() {
         R.mipmap.khutba_start)
 
     val firstStage = intArrayOf(
+        R.mipmap.start_end_2,
+        R.mipmap.khutba_start,
         R.mipmap.img1_1,
-        R.mipmap.img1_2_copy,
-        R.mipmap.img1_3_copy,
+        R.mipmap.img1_2,
+        R.mipmap.img1_3,
         R.mipmap.img1_4,
         R.mipmap.img1_5,
         R.mipmap.img1_6,
@@ -31,10 +33,11 @@ class DuaDetailFragment : Fragment() {
         R.mipmap.img1_14,
         R.mipmap.img1_15,
         R.mipmap.img1_16,
-        R.mipmap.img1_17
+        R.mipmap.start_end_2,
     )
 
     val secondStage  = intArrayOf(
+
         R.mipmap.img2_1,
         R.mipmap.img2_2,
         R.mipmap.img2_3,
@@ -52,10 +55,13 @@ class DuaDetailFragment : Fragment() {
         R.mipmap.img2_15,
         R.mipmap.img2_16,
         R.mipmap.img2_17,
-        R.mipmap.img2_18
+        R.mipmap.img2_18,
+        R.mipmap.img2_19,
+        R.mipmap.start_end_2,
     )
 
     val thirdStage = intArrayOf(
+
         R.mipmap.img3_1,
         R.mipmap.img3_2,
         R.mipmap.img3_3,
@@ -65,9 +71,20 @@ class DuaDetailFragment : Fragment() {
         R.mipmap.img3_7,
         R.mipmap.img3_8,
         R.mipmap.img3_9,
+        R.mipmap.img3_10,
+        R.mipmap.img3_11,
+        R.mipmap.img3_12,
+        R.mipmap.img3_13,
+        R.mipmap.img3_14,
+        R.mipmap.img3_15,
+        R.mipmap.img3_16,
+        R.mipmap.img3_17,
+        R.mipmap.img3_18,
+
     )
 
     val forthStage= intArrayOf(
+
         R.mipmap.img4_1,
         R.mipmap.img4_2,
         R.mipmap.img4_3,
@@ -86,10 +103,12 @@ class DuaDetailFragment : Fragment() {
         R.mipmap.img4_16,
         R.mipmap.img4_17,
         R.mipmap.img4_18,
-        R.mipmap.img4_19
+        R.mipmap.img4_19,
+        R.mipmap.start_end_2,
     )
 
     val fifthStage= intArrayOf(
+
         R.mipmap.img5_1,
         R.mipmap.img5_2,
         R.mipmap.img5_3,
@@ -105,10 +124,12 @@ class DuaDetailFragment : Fragment() {
         R.mipmap.img5_13,
         R.mipmap.img5_14,
         R.mipmap.img5_15,
-        R.mipmap.img5_16
+        R.mipmap.img5_16,
+        R.mipmap.start_end_2,
     )
 
     val sixthStage= intArrayOf(
+
         R.mipmap.img6_1,
         R.mipmap.img6_2,
         R.mipmap.img6_3,
@@ -117,10 +138,22 @@ class DuaDetailFragment : Fragment() {
         R.mipmap.img6_6,
         R.mipmap.img6_7,
         R.mipmap.img6_8,
-        R.mipmap.img6_9
+        R.mipmap.img6_9,
+
+        R.mipmap.img6_10,
+        R.mipmap.img6_11,
+        R.mipmap.img6_12,
+        R.mipmap.img6_13,
+        R.mipmap.img6_14,
+        R.mipmap.img6_15,
+        R.mipmap.img6_16,
+        R.mipmap.img6_17,
+        R.mipmap.img6_18,
+        R.mipmap.start_end_2,
     )
 
     val seventhStage= intArrayOf(
+
         R.mipmap.img7_1,
         R.mipmap.img7_2,
         R.mipmap.img7_3,
@@ -139,7 +172,9 @@ class DuaDetailFragment : Fragment() {
         R.mipmap.img7_16,
         R.mipmap.img7_17,
         R.mipmap.img7_18,
-        R.mipmap.img7_19
+        R.mipmap.img7_19,
+        R.mipmap.start_end_2,
+
     )
 
     private val listStages = arrayListOf(firstStage, secondStage,thirdStage, forthStage, fifthStage, sixthStage, seventhStage)
