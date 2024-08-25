@@ -1,4 +1,4 @@
-package com.bottomenu.islamicbook.ui.scrolltype
+package book.qabool.munajat.ui.scrolltype
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,9 @@ import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.bottomenu.islamicbook.R
-import com.bottomenu.islamicbook.databinding.FragmentScrollDirectionBinding
+import book.qabool.munajat.R
+import book.qabool.munajat.databinding.FragmentScrollDirectionBinding
+
 
 class SelectPageScrollDirectionFragment : Fragment() {
 

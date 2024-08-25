@@ -4,15 +4,17 @@ plugins {
 }
 
 android {
-    namespace 'com.bottomenu.islamicbook'
-    compileSdk 33
+    namespace 'book.qabool.munajat'
+    compileSdk 34
 
     defaultConfig {
-        applicationId "com.bottomenu.islamicbook"
+        applicationId "book.qabool.munajat"
         minSdk 23
         targetSdk 33
         versionCode 6
         versionName "1.5"
+
+        buildConfigField "String", "ShareUrl", "\"https://play.google.com/store/apps/details?book.qabool.munajat\""
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -32,6 +34,7 @@ android {
     }
     buildFeatures {
         viewBinding true
+        buildConfig = true
     }
 }
 

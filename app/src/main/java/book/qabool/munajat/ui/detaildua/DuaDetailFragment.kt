@@ -1,4 +1,4 @@
-package com.bottomenu.islamicbook.ui.detaildua
+package book.qabool.munajat.ui.detaildua
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.PagerSnapHelper
-import com.bottomenu.islamicbook.R
-import com.bottomenu.islamicbook.databinding.FragmentDashboardBinding
+import book.qabool.munajat.R
+import book.qabool.munajat.databinding.FragmentDashboardBinding
 
 class DuaDetailFragment : Fragment() {
     val zeroStage = intArrayOf(
@@ -204,7 +204,7 @@ class DuaDetailFragment : Fragment() {
                 if(scrollDirection ==  0)
                     loadHorizontalSetup(indexForwarded)
                 else
-                    loadVerticalSetup(indexForwarded)
+                    loadVerticalSetup()
             }
         }
     }
@@ -225,7 +225,7 @@ class DuaDetailFragment : Fragment() {
     }
 
 
-    private fun loadVerticalSetup(indexForwarded:Int){
+    private fun loadVerticalSetup() {
         val traditionalRecycleViewAdapter = TraditionalRecycleViewAdapter()
         binding.imagerRecycleView.apply {
             setHasFixedSize(true)

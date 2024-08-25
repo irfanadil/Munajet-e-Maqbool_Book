@@ -1,4 +1,4 @@
-package com.bottomenu.islamicbook.ui.listingdua
+package book.qabool.munajat.ui.listingdua
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,11 +8,12 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.bottomenu.islamicbook.R
-import com.bottomenu.islamicbook.databinding.FragmentHomeBinding
-import com.bottomenu.islamicbook.ui.listingdua.adapter.DuaClickAdapter
-import com.bottomenu.islamicbook.ui.listingdua.adapter.BookListAdapter
-import com.bottomenu.islamicbook.ui.listingdua.model.DuaModel
+import book.qabool.munajat.R
+import book.qabool.munajat.databinding.FragmentHomeBinding
+import book.qabool.munajat.ui.listingdua.adapter.BookListAdapter
+import book.qabool.munajat.ui.listingdua.adapter.DuaClickAdapter
+import book.qabool.munajat.ui.listingdua.model.DuaModel
+
 
 class MainDuaListFragment : Fragment() , DuaClickAdapter {
 
@@ -43,13 +44,13 @@ class MainDuaListFragment : Fragment() , DuaClickAdapter {
             adapter = bookListAdapter
         }
         val listOfDuaModel = listOf(
-            DuaModel(0, "پہلی منزل ","Day 1"),
-            DuaModel(1,"دوسری منزل ","Day 2"),
-            DuaModel(2,"تیسری منزل ","Day 3"),
-            DuaModel(3," چوتھی منزل ","Day 4"),
-            DuaModel(4," پانچوی منزل ","Day 5"),
-            DuaModel(5,"چھٹی منزل ","Day 6"),
-            DuaModel(6,"ساتویں منزل ","Day 7")
+            DuaModel(0, "پہلی منزل ", "Day 1"),
+            DuaModel(1, "دوسری منزل ", "Day 2"),
+            DuaModel(2, "تیسری منزل ", "Day 3"),
+            DuaModel(3, " چوتھی منزل ", "Day 4"),
+            DuaModel(4, " پانچوی منزل ", "Day 5"),
+            DuaModel(5, "چھٹی منزل ", "Day 6"),
+            DuaModel(6, "ساتویں منزل ", "Day 7")
         )
 
         bookListAdapter.updateInsideAdapter(listOfDuaModel)

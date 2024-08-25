@@ -1,11 +1,11 @@
-package com.bottomenu.islamicbook.ui.detaildua
+package book.qabool.munajat.ui.detaildua
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
-import com.bottomenu.islamicbook.databinding.ImagesHolderBinding
+import book.qabool.munajat.databinding.ImagesHolderBinding
 
 
 class TraditionalRecycleViewAdapter  : RecyclerView.Adapter<TraditionalRecycleViewAdapter.ViewHolder>() {

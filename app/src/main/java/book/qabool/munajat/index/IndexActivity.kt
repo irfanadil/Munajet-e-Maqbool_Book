@@ -1,8 +1,8 @@
-package com.bottomenu.islamicbook.index
+package book.qabool.munajat.index
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.bottomenu.islamicbook.databinding.ActivityIndexBinding
+import book.qabool.munajat.databinding.ActivityIndexBinding
 
 class IndexActivity : AppCompatActivity()  {
 

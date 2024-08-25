@@ -1,4 +1,4 @@
-package com.bottomenu.islamicbook.ui.detaildua
+package book.qabool.munajat.ui.detaildua
 
 import android.graphics.Bitmap
 

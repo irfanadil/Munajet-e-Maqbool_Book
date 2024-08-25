@@ -1,4 +1,4 @@
-package com.bottomenu.islamicbook.ui.listingdua.adapter
+package book.qabool.munajat.ui.listingdua.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -6,9 +6,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
-import com.bottomenu.islamicbook.databinding.ItemListContentBinding
-import com.bottomenu.islamicbook.ui.listingdua.model.DuaModel
-
+import book.qabool.munajat.databinding.ItemListContentBinding
+import book.qabool.munajat.ui.listingdua.model.DuaModel
 
 class BookListAdapter
 internal constructor(

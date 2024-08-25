@@ -1,4 +1,4 @@
-package com.bottomenu.islamicbook.ui.listingdua.model
+package book.qabool.munajat.ui.listingdua.model
 
 
 //@Entity(tableName = "quotesTable")

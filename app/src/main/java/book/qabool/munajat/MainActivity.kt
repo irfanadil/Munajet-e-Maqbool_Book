@@ -1,13 +1,8 @@
-package com.bottomenu.islamicbook
+package book.qabool.munajat
 
 import android.os.Bundle
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
-import androidx.navigation.ui.setupWithNavController
-import com.bottomenu.islamicbook.databinding.ActivityMainBinding
+import book.qabool.munajat.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/page_scroll_direction"
-        android:name="com.bottomenu.islamicbook.ui.scrolltype.SelectPageScrollDirectionFragment"
+        android:name="book.qabool.munajat.ui.scrolltype.SelectPageScrollDirectionFragment"
         android:label="@string/page_direction_screen"
         tools:layout="@layout/fragment_scroll_direction" >
         <action
